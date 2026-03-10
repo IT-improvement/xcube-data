@@ -1,0 +1,3 @@
+*.zarr/
+*.zarr.zip
+.DS_Store
