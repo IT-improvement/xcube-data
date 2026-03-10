@@ -1,0 +1,35 @@
+Datasets:
+  - Identifier: landsat(2019)
+    Path: /Users/jooseungjae/XEE/zarr/landsat(2019)rgb.zarr
+    Title: landsat(2019)
+    Description: landsat(2019)
+    Style: landsat_rgb_nir
+
+Styles:
+  - Identifier: landsat_rgb_nir
+    ColorMappings:
+      red:
+        ColorBar: bone
+        ValueRange: [0.1, 1.8] 
+      green:
+        ColorBar: bone
+        ValueRange: [0.1, 1.8]
+      blue:
+        ColorBar: bone
+        ValueRange: [0.1, 1.8]
+      nir:
+        ColorBar: bone
+        ValueRange: [0.1, 1.8]
+      rgb:
+        Red:
+          Variable: red
+          ValueRange: [0.45, 2.5]  
+        Green:
+          Variable: green
+          ValueRange: [0.45, 2.5]
+        Blue:
+          Variable: blue
+          ValueRange: [0.45, 2.5]
+      shape_mask:       
+        ColorBar: solid_blue
+        ValueRange: [0.5, 1.5]
